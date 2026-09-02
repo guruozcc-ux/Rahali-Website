@@ -38,12 +38,7 @@ because getting them wrong has real regulatory consequences.
      inbox/CRM with a timestamped record) is a small change — happy to
      do it later.
 
-4. **Privacy Policy figures.** The rewritten Privacy Policy
-   (`privacy.html`) mirrors your existing 2019 PDF almost clause-for-
-   clause, updated only in date and formatting — I did not add or
-   remove any substantive obligation. Please have it reviewed once by
-   whoever originally approved the 2019 version, since I'm not your
-   compliance/legal adviser and can't give that sign-off.
+4. ~~Privacy Policy sign-off.~~ **Done** — approved by Compliance.
 
 5. **AUM / client numbers.** Per your instruction, the site now states
    "over $120 million" in funds under advice, "100+ clients" and "23+
