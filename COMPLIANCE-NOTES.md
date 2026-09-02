@@ -16,23 +16,11 @@ because getting them wrong has real regulatory consequences.
    updated to a corrected version whose contact details now match the
    website (PO Box 23052, Docklands VIC 8012 / 0414 502 171).
 
-3. **Complaints intake address.** Per your instruction, the complaint
-   and enquiry forms are `mailto:`-based, addressed to
-   `ranjit@rahali.com` (the only address on the current site). Two
-   things worth considering:
-   - A `mailto:` form only works if the visitor's device has an email
-     client configured — it will silently do nothing on a phone/browser
-     without one. It also gives you no record unless the visitor
-     actually presses send in their own client.
-   - Best practice for AFSL complaints handling is a dedicated
-     `complaints@rahali.com` inbox distinct from your personal address,
-     so complaints can't get buried in day-to-day mail and could be
-     monitored by someone else if needed. Consider adding one as a
-     mail alias if your email provider supports it.
-   - If this becomes a real pain point, migrating the two forms to
-     Zoho Sites' native form widget (submissions land in your Zoho
-     inbox/CRM with a timestamped record) is a small change — happy to
-     do it later.
+3. ~~Complaints intake address.~~ **Confirmed** — staying with
+   `ranjit@rahali.com` on the `mailto:`-based forms, rather than a
+   dedicated `complaints@rahali.com` inbox. (If this becomes a pain
+   point later, migrating to Zoho Sites' native form widget — with a
+   logged, timestamped record of each submission — is a small change.)
 
 4. ~~Privacy Policy sign-off.~~ **Done** — approved by Compliance.
 
@@ -57,10 +45,9 @@ because getting them wrong has real regulatory consequences.
    Independent" due to commissions on insurance/mortgage/credit
    products). Replaced every instance describing Rahali itself with
    "client-focused, product-agnostic" instead. Left AFCA described as
-   "independent" (a
-   true statement about a third party) and "independent documents" in
-   the Privacy Policy's KYC definition untouched, since neither
-   describes Rahali.
+   "independent" (a true statement about a third party) and
+   "independent documents" in the Privacy Policy's KYC definition
+   untouched, since neither describes Rahali.
 
 ## Nothing else was invented
 
