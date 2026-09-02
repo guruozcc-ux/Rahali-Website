@@ -172,6 +172,7 @@ blockquote{
   color:var(--ink); border-left:2px solid var(--accent); padding-left:22px;
 }
 blockquote cite{ display:block; margin-top:14px; font-family:"IBM Plex Mono",monospace; font-style:normal; font-size:12px; letter-spacing:.04em; color:var(--ink-faint); }
+.byline-photo{ width:88px; height:88px; object-fit:cover; margin-top:16px; border:1px solid var(--line); }
 .about-copy p{ color:var(--ink-soft); margin:0 0 16px; }
 .about-copy p:last-child{ margin-bottom:0; }
 
