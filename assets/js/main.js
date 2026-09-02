@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function () {
   // Mobile nav toggle
   var toggle = document.querySelector('.nav-toggle');
-  var links = document.querySelector('.nav-links');
+  var links = document.querySelector('.site-nav');
   if (toggle && links) {
     toggle.addEventListener('click', function () {
       var isOpen = links.classList.toggle('open');
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Highlight current page in nav
   var here = (window.location.pathname.split('/').pop() || 'index.html');
-  document.querySelectorAll('.nav-links a').forEach(function (a) {
+  document.querySelectorAll('.site-nav a').forEach(function (a) {
     var href = a.getAttribute('href');
     if (href === here || (here === '' && href === 'index.html')) {
       a.classList.add('active');

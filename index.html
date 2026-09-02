@@ -3,226 +3,267 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rahali Corporation | Financial Planning &amp; Mortgage Advice, Melbourne</title>
-<meta name="description" content="Rahali Corporation Pty Ltd helps individuals and families create, grow and protect their wealth through personal financial advice, retirement planning and mortgage broking. AFSL &amp; Australian Credit Licence 344748.">
+<title>Rahali Corporation | Financial Planning & Mortgage Advice, Melbourne</title>
+<meta name="description" content="Rahali Corporation Pty Ltd helps individuals and families create, grow and protect their wealth through personal financial advice, retirement planning and mortgage broking. AFSL & Australian Credit Licence 344748.">
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
-
-<header class="site-header">
-  <div class="nav-wrap">
-    <a class="brand" href="index.html"><img src="assets/img/logo.svg" alt="Rahali Corporation Pty Ltd"></a>
-    <nav aria-label="Primary">
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="process.html">Our Process</a></li>
-        <li><a href="policies.html">Policies</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+<div class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="logo" href="index.html">
+      <svg class="logo-mark" viewBox="0 0 30 30" fill="none" aria-hidden="true">
+        <path d="M15 2 L28 15 L15 28 L2 15 Z" stroke="var(--accent-deep)" stroke-width="1.4"/>
+        <path d="M15 9 L21 15 L15 21 L9 15 Z" fill="var(--accent)"/>
+      </svg>
+      <span>
+        <span class="logo-word">Rahali</span>
+        <span class="logo-sub">Financial &amp; Mortgage Advice</span>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="process.html">Process</a>
+      <a href="policies.html">Policies</a>
+      <a href="contact.html">Contact</a>
     </nav>
-    <div class="nav-cta">
-      <a class="btn btn-outline btn-sm" href="complaints.html">Raise a Complaint</a>
-      <a class="btn btn-primary btn-sm" href="contact.html">Book a Chat</a>
+    <div class="topbar-cta">
+      <a class="btn-sm btn-outline-sm" href="complaints.html">Raise a Complaint</a>
+      <a class="btn-primary btn-sm" href="contact.html">Book a meeting</a>
       <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
   </div>
-</header>
+</div>
 
 <main id="main">
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="container hero-grid">
+<header class="hero">
+  <div class="wrap">
+    <div class="credential-line">
+      <span class="dot"></span>
+      <span>AFSL &amp; Australian Credit Licence 344748</span>
+      <span>&middot;</span>
+      <span>ABN 70 079 525 081</span>
+    </div>
+    <div class="hero-grid">
       <div>
-        <span class="eyebrow">Financial Planning &amp; Mortgage Broking</span>
-        <h1>We help you create, grow &amp; protect your wealth.</h1>
-        <p class="lead">For over 23 years, Rahali Corporation has given everyday Australians — from young professionals to executives nearing retirement — the confidence to know their money has a plan behind it.</p>
+        <h1>Advice built for the <em>next twenty years,</em> not the next quarter.</h1>
+        <p class="hero-sub">Rahali Corporation is an independently licensed financial advice practice in Docklands, Victoria &mdash; helping clients build, protect and draw down wealth with a plan they actually understand.</p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="contact.html">Book a Free Introductory Chat</a>
-          <a class="btn btn-outline" href="services.html">Explore Our Services</a>
-        </div>
-        <div class="hero-badges">
-          <span><strong>23+</strong>Years of experience</span>
-          <span><strong>$120M+</strong>Funds under advice</span>
-          <span><strong>100+</strong>Clients guided</span>
+          <a class="btn-primary" href="contact.html">Start a conversation</a>
+          <a class="btn-ghost" href="process.html">See how we work &rarr;</a>
         </div>
       </div>
-      <div class="hero-art" aria-hidden="true">
-        <div class="stat-row"><span class="stat-label">Australian Financial Services Licence</span><span class="stat-num">344748</span></div>
-        <div class="stat-row"><span class="stat-label">Australian Credit Licence</span><span class="stat-num">344748</span></div>
-        <div class="stat-row"><span class="stat-label">ABN</span><span class="stat-num">70 079 525 081</span></div>
+      <div class="hero-figure">
+        <div class="fig-label"><span>Client base, indexed</span><span>2003 &mdash; present</span></div>
+        <canvas id="horizon" width="600" height="180"></canvas>
+        <div class="fig-stats">
+          <div><span class="stat-n">$120M+</span><span class="stat-l">Funds under advice</span></div>
+          <div><span class="stat-n">100+</span><span class="stat-l">Clients guided</span></div>
+          <div><span class="stat-n">23+ yrs</span><span class="stat-l">Advising Australians</span></div>
+        </div>
       </div>
     </div>
-  </section>
+  </div>
+</header>
 
-  <!-- VALUE PROPS -->
-  <section class="section">
-    <div class="container">
-      <span class="eyebrow">Why clients work with us</span>
-      <h2>Peace of mind, built on a plan.</h2>
-      <p class="lead" style="margin-bottom:36px;">Financial planning shouldn't feel like a mystery. We give you clarity on where you stand today, and confidence in where you're headed.</p>
-      <div class="grid grid-3">
-        <div class="card">
-          <div class="icon" aria-hidden="true">
-            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M12 2L3 7v6c0 5 4 8.5 9 9 5-.5 9-4 9-9V7l-9-5z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
-          </div>
-          <h3>Advice you can trust</h3>
-          <p>Access to a wide range of products across the market — we're not tied to any one institution, so recommendations are built around your goals, not a sales target.</p>
-        </div>
-        <div class="card">
-          <div class="icon" aria-hidden="true">
-            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M4 19V5m0 14h16M8 15l3-4 3 3 5-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </div>
-          <h3>Transparent fees</h3>
-          <p>You'll always know how we're paid and what it costs before you commit to anything — spelled out clearly in our Financial Services &amp; Credit Guide and your Statement of Advice.</p>
-        </div>
-        <div class="card">
-          <div class="icon" aria-hidden="true">
-            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="1.8"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
-          </div>
-          <h3>A long-term partner</h3>
-          <p>Strategy isn't a one-off document. We meet regularly to keep your plan on track as life, markets and rules change around you.</p>
-        </div>
-      </div>
+<section class="section">
+  <div class="wrap about-grid">
+    <blockquote>
+      &ldquo;Most people don&rsquo;t need a cleverer product. They need a plan they&rsquo;ll actually stick to &mdash; and someone accountable for it.&rdquo;
+      <cite>Ranjit Das &mdash; Principal Adviser, Rahali Corporation</cite>
+    </blockquote>
+    <div class="about-copy">
+      <span class="eyebrow">About the practice</span>
+      <p>Rahali Corporation Pty Ltd has been advising Australians on wealth creation, retirement and risk since 2003. Before founding the practice, Principal Adviser Ranjit Das spent two decades in corporate technology and banking &mdash; experience that shapes a style of advice that favours clarity over complexity.</p>
+      <p>The practice holds its own Australian Financial Services Licence and Australian Credit Licence, and works with a small, established panel of product and lending partners rather than a single institution&rsquo;s shelf.</p>
+      <p class="mb-0"><a class="btn-ghost" href="about.html">More about the practice &rarr;</a></p>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- SERVICES OVERVIEW -->
-  <section class="section section--alt">
-    <div class="container">
-      <span class="eyebrow">What we do</span>
-      <h2>Services built around real life.</h2>
-      <div class="grid grid-4" style="margin-top:32px;">
-        <div class="card">
-          <div class="icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 17l6-6 4 4 8-8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-          <h3>Wealth creation</h3>
-          <p>Structured strategies including negative gearing and capital-protected investing.</p>
-        </div>
-        <div class="card">
-          <div class="icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-4.35-9.5-8.5C.5 8.5 3 5 6.5 5c2 0 3.5 1 5.5 3 2-2 3.5-3 5.5-3C21 5 23.5 8.5 21.5 12.5 19 16.65 12 21 12 21z" stroke="currentColor" stroke-width="1.6"/></svg></div>
-          <h3>Retirement &amp; super</h3>
-          <p>Superannuation, pensions and insurance strategies for a comfortable retirement.</p>
-        </div>
-        <div class="card">
-          <div class="icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 11l9-8 9 8M5 10v10h14V10" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></div>
-          <h3>Mortgage broking</h3>
-          <p>Home, investment, refinance, debt consolidation and commercial lending.</p>
-        </div>
-        <div class="card">
-          <div class="icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M8 12h8M12 8v8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div>
-          <h3>Trusted referrals</h3>
-          <p>A vetted network of accountants and solicitors for tax, trusts and estate planning.</p>
-        </div>
-      </div>
-      <div class="text-center" style="margin-top:36px;">
-        <a class="btn btn-outline" href="services.html">See all professional services</a>
-      </div>
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <div><span class="eyebrow">What we advise on</span><h2>One practice, the full picture.</h2></div>
+      <p>Financial advice and lending sit under one roof, so retirement, protection and borrowing decisions are made against the same plan &mdash; not three disconnected ones.</p>
     </div>
-  </section>
+    <div class="services-list">
+      <div class="service-row"><span class="num mono">01</span><h3>Wealth &amp; retirement</h3><p>Superannuation, pensions, structured products and retirement income strategy.</p></div>
+      <div class="service-row"><span class="num mono">02</span><h3>Protection</h3><p>Personal insurance advice sized to your circumstances, not a default product panel.</p></div>
+      <div class="service-row"><span class="num mono">03</span><h3>Lending &amp; credit</h3><p>Home, investment and commercial lending, refinancing and negative gearing structures under our Australian Credit Licence.</p></div>
+      <div class="service-row"><span class="num mono">04</span><h3>Referred services</h3><p>Coordinated introductions to trusted accountants and solicitors where your strategy needs them.</p></div>
+    </div>
+    <p style="margin-top:26px;" class="mb-0"><a class="btn-ghost" href="services.html">See all professional services &rarr;</a></p>
+  </div>
+</section>
 
-  <!-- PROCESS TEASER -->
-  <section class="section">
-    <div class="container">
-      <div class="grid grid-2" style="align-items:center; gap:56px;">
-        <div>
-          <span class="eyebrow">How it works</span>
-          <h2>A five-step partnership, from first chat to ongoing care.</h2>
-          <p class="lead">Every engagement follows the same clear, ASIC-aligned process — so you always know what happens next and why.</p>
-          <a class="btn btn-primary" href="process.html">See the full engagement process</a>
-        </div>
-        <div class="card" style="padding:0; overflow:hidden;">
-          <div style="padding:26px 30px; border-bottom:1px solid var(--border);"><strong>1. Initial contact</strong> — you receive our Financial Services &amp; Credit Guide</div>
-          <div style="padding:26px 30px; border-bottom:1px solid var(--border);"><strong>2. Initial meeting</strong> — we understand your goals and risk tolerance</div>
-          <div style="padding:26px 30px; border-bottom:1px solid var(--border);"><strong>3. Letter of engagement</strong> — we prepare your Statement of Advice</div>
-          <div style="padding:26px 30px; border-bottom:1px solid var(--border);"><strong>4. Strategy review</strong> — we walk through your plan together</div>
-          <div style="padding:26px 30px;"><strong>5. Ongoing monitoring</strong> — regular check-ins to keep you on track</div>
-        </div>
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <div><span class="eyebrow">Engagement process</span><h2>A defined path, from first meeting to review.</h2></div>
+      <p>The same five stages for every client, so you always know what happens next and why.</p>
+    </div>
+    <div class="process-list">
+      <div class="process-item"><span class="num">1</span><h3>Initial contact</h3><p>You receive our Financial Services &amp; Credit Guide.</p></div>
+      <div class="process-item"><span class="num">2</span><h3>Discovery meeting</h3><p>We map your position, goals and risk appetite.</p></div>
+      <div class="process-item"><span class="num">3</span><h3>Statement of Advice</h3><p>A written plan, explained in plain language.</p></div>
+      <div class="process-item"><span class="num">4</span><h3>Strategy review</h3><p>We walk through the plan and agree next steps.</p></div>
+      <div class="process-item"><span class="num">5</span><h3>Ongoing monitoring</h3><p>Scheduled reviews keep the plan on track.</p></div>
+    </div>
+    <p style="margin-top:26px;" class="mb-0"><a class="btn-ghost" href="process.html">See the full engagement process &rarr;</a></p>
+  </div>
+</section>
+
+<div class="trust-strip">
+  <div class="wrap trust-grid">
+    <div><h3>Independently licensed</h3><p>Rahali holds its own AFSL and Australian Credit Licence rather than operating under someone else&rsquo;s &mdash; we&rsquo;re accountable to ASIC directly for the advice we give.</p></div>
+    <div><h3>One adviser, one relationship</h3><p>You work with the same principal adviser over time, not a rotating call centre.</p></div>
+    <div><h3>Clear on cost</h3><p>Fees are agreed and disclosed in writing before any advice is provided &mdash; no surprises in a Statement of Advice.</p></div>
+  </div>
+</div>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <div><span class="eyebrow">Governance</span><h2>How we&rsquo;re regulated, and your rights.</h2></div>
+      <p>As an AFSL holder, we&rsquo;re required to make these documents available &mdash; and we&rsquo;d rather you read them than not.</p>
+    </div>
+    <div class="policy-grid">
+      <div class="policy-card">
+        <span class="tag">Required reading</span>
+        <h3>Financial Services &amp; Credit Guide</h3>
+        <p>Who we are, the advice and services we&rsquo;re licensed to provide, how we&rsquo;re paid, and who to contact if something goes wrong.</p>
+        <a href="fscg.html">Read the FSCG &rarr;</a>
+      </div>
+      <div class="policy-card">
+        <span class="tag">Privacy Act 1988</span>
+        <h3>Privacy Policy</h3>
+        <p>How we collect, use, store and disclose your personal information, and how to access or correct it.</p>
+        <a href="privacy.html">Read the policy &rarr;</a>
+      </div>
+      <div class="policy-card">
+        <span class="tag">ASIC RG 271</span>
+        <h3>Complaints Procedure</h3>
+        <p>Our internal dispute resolution process, response timeframes, and your right to escalate to AFCA.</p>
+        <a href="complaints.html">Read the procedure &rarr;</a>
       </div>
     </div>
-  </section>
-
-  <!-- COMPLIANCE STRIP -->
-  <section class="section section--navy">
-    <div class="container">
-      <div class="grid grid-3">
-        <div>
-          <h3>Financial Services &amp; Credit Guide</h3>
-          <p>What advice we can give, how we're paid, and how to reach us.</p>
-          <a class="btn btn-light btn-sm" href="fscg.html">View the FSCG</a>
-        </div>
-        <div>
-          <h3>Privacy Policy</h3>
-          <p>How we collect, use and protect your personal information under the Privacy Act.</p>
-          <a class="btn btn-light btn-sm" href="privacy.html">Read our Privacy Policy</a>
-        </div>
-        <div>
-          <h3>Not happy? Tell us.</h3>
-          <p>Our complaints process, and your right to escalate to AFCA at any time.</p>
-          <a class="btn btn-light btn-sm" href="complaints.html">Raise a complaint</a>
-        </div>
+    <div class="complaint-banner">
+      <div>
+        <h3>Need to raise a complaint?</h3>
+        <p>We aim to acknowledge every complaint within 1 business day and resolve it within 30 days, in line with ASIC requirements.</p>
       </div>
+      <a href="complaints.html">Lodge a complaint &rarr;</a>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- CTA -->
-  <section class="section text-center">
-    <div class="container">
-      <h2>Ready to get a plan behind your money?</h2>
-      <p class="lead" style="margin:0 auto 24px;">Book a free, no-obligation introductory chat with Ranjit Das to see whether we're the right fit.</p>
-      <a class="btn btn-primary" href="contact.html">Book a Free Introductory Chat</a>
-    </div>
-  </section>
+<section class="section text-center">
+  <div class="wrap">
+    <h2>Ready to get a plan behind your money?</h2>
+    <p class="lead" style="margin:0 auto 24px;">Book a free, no-obligation introductory chat with Ranjit Das to see whether we&rsquo;re the right fit.</p>
+    <a class="btn-primary" href="contact.html">Start a conversation</a>
+  </div>
+</section>
 
 </main>
-
 <footer class="site-footer">
-  <div class="container">
+  <div class="wrap">
     <div class="footer-grid">
       <div>
-        <img src="assets/img/logo-white.svg" alt="Rahali Corporation Pty Ltd" style="height:44px;margin-bottom:14px;">
-        <p class="footer-reg">Rahali Corporation Pty Ltd<br>ABN 70 079 525 081<br>AFSL &amp; Australian Credit Licence 344748</p>
+        <span class="logo-word" style="font-size:19px;">Rahali</span>
+        <p style="color:var(--ink-soft);font-size:14.5px;margin-top:14px;max-width:32ch;">PO Box 23052<br>Docklands VIC 8012<br><a href="mailto:ranjit@rahali.com">ranjit@rahali.com</a><br><a href="tel:+61414502171">0414 502 171</a></p>
       </div>
       <div>
-        <h4>Explore</h4>
+        <h4>Practice</h4>
         <ul>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="services.html">Professional Services</a></li>
-          <li><a href="process.html">Our Process</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="process.html">Our process</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
       <div>
         <h4>Policies</h4>
         <ul>
-          <li><a href="privacy.html">Privacy Policy</a></li>
           <li><a href="fscg.html">Financial Services &amp; Credit Guide</a></li>
-          <li><a href="complaints.html">Complaints Procedure</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="complaints.html">Complaints procedure</a></li>
         </ul>
       </div>
       <div>
-        <h4>Get in touch</h4>
+        <h4>Regulators</h4>
         <ul>
-          <li><a href="mailto:ranjit@rahali.com">ranjit@rahali.com</a></li>
-          <li><a href="tel:+61414502171">0414 502 171</a></li>
-          <li>PO Box 23052, Docklands VIC 8012</li>
+          <li><a href="https://moneysmart.gov.au" target="_blank" rel="noopener">ASIC — moneysmart.gov.au</a></li>
+          <li><a href="https://www.afca.org.au" target="_blank" rel="noopener">AFCA — afca.org.au</a></li>
+          <li><a href="https://www.oaic.gov.au" target="_blank" rel="noopener">OAIC — oaic.gov.au</a></li>
         </ul>
       </div>
     </div>
-    <div class="footer-bottom">
-      <span>&copy; <span data-year>2026</span> Rahali Corporation Pty Ltd. All rights reserved.</span>
-      <span>Financial services and credit assistance provided under AFSL &amp; Australian Credit Licence 344748.</span>
+    <div class="footer-legal">
+      <strong>Rahali Corporation Pty Ltd</strong> ABN 70 079 525 081 is the holder of Australian Financial Services Licence and Australian Credit Licence 344748, and is a member of the Australian Financial Complaints Authority (AFCA). This website contains general information only and does not take into account your personal objectives, financial situation or needs. Before acting on it, consider its appropriateness and read our <a href="fscg.html">Financial Services &amp; Credit Guide</a>. &copy; <span data-year>2026</span> Rahali Corporation Pty Ltd. All rights reserved.
     </div>
   </div>
 </footer>
+
 <script src="assets/js/main.js"></script>
+<script>
+(function(){
+  var c = document.getElementById('horizon');
+  if(!c) return;
+  var ctx = c.getContext('2d');
+  var w = c.width, h = c.height;
+  function styleOf(varName, fallback){
+    var v = getComputedStyle(document.documentElement).getPropertyValue(varName);
+    return v ? v.trim() : fallback;
+  }
+  function draw(){
+    ctx.clearRect(0,0,w,h);
+    var line = styleOf('--line-strong','#B9AF98');
+    var accent = styleOf('--accent','#3C6E64');
+    var accentDeep = styleOf('--accent-deep','#24443D');
+    ctx.strokeStyle = line;
+    ctx.lineWidth = 1;
+    for(var gy=0; gy<=4; gy++){
+      var y = (h/4)*gy + 0.5;
+      ctx.globalAlpha = 0.5;
+      ctx.beginPath(); ctx.moveTo(0,y); ctx.lineTo(w,y); ctx.stroke();
+    }
+    ctx.globalAlpha = 1;
+    function series(seed, color, width, base){
+      var pts = 60, arr=[];
+      var v = base;
+      for(var i=0;i<=pts;i++){
+        var t = i/pts;
+        v += Math.sin(t*7+seed)*3 + (Math.random()-0.45)*2.2 + 0.9;
+        arr.push(v);
+      }
+      var min = Math.min.apply(null,arr), max = Math.max.apply(null,arr);
+      ctx.beginPath();
+      ctx.strokeStyle = color;
+      ctx.lineWidth = width;
+      for(var i=0;i<arr.length;i++){
+        var x = (i/pts)*w;
+        var y = h - 14 - ((arr[i]-min)/(max-min))*(h-28);
+        if(i===0) ctx.moveTo(x,y); else ctx.lineTo(x,y);
+      }
+      ctx.stroke();
+    }
+    series(1, accent, 1.4, 20);
+    series(4, accentDeep, 2, 10);
+  }
+  draw();
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', draw);
+  window.addEventListener('resize', draw);
+})();
+</script>
 </body>
 </html>
