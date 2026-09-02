@@ -56,12 +56,13 @@ CNAME                 Custom domain for GitHub Pages (rahali.com)
 - **Mobile nav** collapses to a hamburger menu below 900px width, driven
   by `assets/js/main.js` — if it stops working, check that file's path
   first.
-- **The FSCG download is currently a placeholder.** `fscg.html` links to
-  `files/FSCG.pdf`, which doesn't exist yet in this repo — see
-  `files/PLACE-FSCG-HERE.txt`.
+- **`files/FSCG.pdf`** is the real, current Financial Services & Credit
+  Guide (Version 8, 24 April 2023). Replace it the same way (keep the
+  filename) whenever a new version is issued.
 
 ## Outstanding compliance items
 
-See `COMPLIANCE-NOTES.md` for the full list (AFCA member number, the real
-FSCG PDF, complaints inbox address, sign-off on the Privacy Policy
-wording, confirming the AUM/client-count figures).
+See `COMPLIANCE-NOTES.md` for the full list (AFCA member number,
+complaints inbox address, sign-off on the Privacy Policy wording,
+confirming the AUM/client-count figures, and a contact-details mismatch
+between the FSCG and the site worth checking).
