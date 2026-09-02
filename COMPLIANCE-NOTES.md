@@ -19,14 +19,10 @@ because getting them wrong has real regulatory consequences.
    Financial Services & Credit Guide (Version 8, 24 April 2023) you
    provided.
 
-   One thing it surfaced: the FSCG lists your office as **Unit 3803,
-   100 Harbour Esplanade, Docklands VIC 3008** and phone **03 9942
-   8801**, while the website (and the 2019 Privacy Policy it was drawn
-   from) shows **PO Box 23052, Docklands VIC 8012** and **0414 502
-   171**. These may both be legitimately in use (office line vs. mobile,
-   postal vs. street address) — but worth confirming which should be
-   the primary contact shown on the site, since the FSCG is the more
-   recent document.
+   ~~Address mismatch.~~ **Resolved** — the FSCG lists a different
+   office address/phone (Unit 3803, 100 Harbour Esplanade, Docklands
+   VIC 3008 / 03 9942 8801) than the site. Confirmed: the site keeps
+   **PO Box 23052, Docklands VIC 8012** as the published address.
 
 3. **Complaints intake address.** Per your instruction, the complaint
    and enquiry forms are `mailto:`-based, addressed to
