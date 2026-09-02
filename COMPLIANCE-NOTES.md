@@ -11,14 +11,10 @@ because getting them wrong has real regulatory consequences.
 1. ~~AFCA membership number.~~ **Done** — `complaints.html` and
    `policies.html` now quote AFCA member number **44095**.
 
-2. ~~Current FSCG PDF.~~ **Done** — `files/FSCG.pdf` is now the real
-   Financial Services & Credit Guide (Version 8, 24 April 2023) you
-   provided.
-
-   ~~Address mismatch.~~ **Resolved** — the FSCG lists a different
-   office address/phone (Unit 3803, 100 Harbour Esplanade, Docklands
-   VIC 3008 / 03 9942 8801) than the site. Confirmed: the site keeps
-   **PO Box 23052, Docklands VIC 8012** as the published address.
+2. ~~Current FSCG PDF.~~ **Done** — `files/FSCG.pdf` is the real
+   Financial Services & Credit Guide (Version 8, 24 April 2023),
+   updated to a corrected version whose contact details now match the
+   website (PO Box 23052, Docklands VIC 8012 / 0414 502 171).
 
 3. **Complaints intake address.** Per your instruction, the complaint
    and enquiry forms are `mailto:`-based, addressed to
@@ -60,7 +56,8 @@ because getting them wrong has real regulatory consequences.
    — conditions your own FSCG confirms don't apply (it states "Not
    Independent" due to commissions on insurance/mortgage/credit
    products). Replaced every instance describing Rahali itself with
-   "self-licensed" instead. Left AFCA described as "independent" (a
+   "client-focused, product-agnostic" instead. Left AFCA described as
+   "independent" (a
    true statement about a third party) and "independent documents" in
    the Privacy Policy's KYC definition untouched, since neither
    describes Rahali.
