@@ -1,12 +1,12 @@
-# Compliance follow-ups before this goes live
+# Compliance follow-ups
 
-This redesign carries over and modernises the content from the current
-rahali.com, and rewrites the Privacy Policy and Complaints Procedure into
-responsive web pages (previously PDF/Word downloads). A few things need
-sign-off from Ranjit / your AFSL compliance arrangements before publishing,
-because getting them wrong has real regulatory consequences.
+**All items below are now resolved.** This redesign carried over and
+modernised the content from the original rahali.com, and rewrote the
+Privacy Policy and Complaints Procedure into responsive web pages
+(previously PDF/Word downloads). Kept here as a record of what was
+checked and confirmed.
 
-## Must confirm before publishing
+## Checklist
 
 1. ~~AFCA membership number.~~ **Done** — `complaints.html` and
    `policies.html` now quote AFCA member number **44095**.
@@ -24,18 +24,12 @@ because getting them wrong has real regulatory consequences.
 
 4. ~~Privacy Policy sign-off.~~ **Done** — approved by Compliance.
 
-5. **AUM / client numbers.** Per your instruction, the site now states
-   "over $120 million" in funds under advice, "100+ clients" and "23+
-   years" of experience (2003–2026). ASIC's misleading/deceptive
-   conduct rules (and your AFSL obligations generally) require these to
-   be accurate and something you could substantiate if asked — please
-   double-check the exact figures before publishing, and update the
-   `hero-badges` numbers in `index.html` and the bio text in `about.html`
-   if they've moved on since you gave them to me.
+5. ~~AUM / client numbers.~~ **Confirmed** — "$120 million" in funds
+   under advice, "100+ clients" and "23+ years" of experience are
+   accurate.
 
-6. **Professional Indemnity insurance wording.** `complaints.html` and
-   `policies.html` state PI insurance is held, mirroring your existing
-   published wording. Confirm this is still accurate.
+6. ~~Professional Indemnity insurance wording.~~ **Confirmed** — still
+   accurate as published on `complaints.html` and `policies.html`.
 
 7. ~~"Independent" wording.~~ **Done** — you flagged that ASIC restricts
    AFSL holders from describing themselves, their advice or their
