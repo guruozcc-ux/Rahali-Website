@@ -8,12 +8,8 @@ because getting them wrong has real regulatory consequences.
 
 ## Must confirm before publishing
 
-1. **AFCA membership number.** `complaints.html` and `policies.html`
-   reference AFCA (1800 931 678, afca.org.au) but don't quote a specific
-   member number — I couldn't find it published anywhere I have access
-   to search. ASIC's RG 271 expects your IDR/EDR disclosures to be
-   accurate and complete, so add the member number (or confirm it isn't
-   normally quoted on your existing FSCG) before this goes live.
+1. ~~AFCA membership number.~~ **Done** — `complaints.html` and
+   `policies.html` now quote AFCA member number **44095**.
 
 2. ~~Current FSCG PDF.~~ **Done** — `files/FSCG.pdf` is now the real
    Financial Services & Credit Guide (Version 8, 24 April 2023) you
@@ -61,6 +57,18 @@ because getting them wrong has real regulatory consequences.
 6. **Professional Indemnity insurance wording.** `complaints.html` and
    `policies.html` state PI insurance is held, mirroring your existing
    published wording. Confirm this is still accurate.
+
+7. ~~"Independent" wording.~~ **Done** — you flagged that ASIC restricts
+   AFSL holders from describing themselves, their advice or their
+   licence as "independent"/"impartial"/"unbiased" (s923A of the
+   Corporations Act) unless conflicted-remuneration conditions are met
+   — conditions your own FSCG confirms don't apply (it states "Not
+   Independent" due to commissions on insurance/mortgage/credit
+   products). Replaced every instance describing Rahali itself with
+   "self-licensed" instead. Left AFCA described as "independent" (a
+   true statement about a third party) and "independent documents" in
+   the Privacy Policy's KYC definition untouched, since neither
+   describes Rahali.
 
 ## Nothing else was invented
 
