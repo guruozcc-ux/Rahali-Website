@@ -1,7 +1,7 @@
 # Deploying this site to Zoho Sites
 
 This is a plain static site — 9 HTML pages plus `assets/css/style.css`,
-`assets/js/main.js` and `assets/img/*.svg`. No build step, no framework,
+`assets/js/main.js` and `assets/img/*`. No build step, no framework,
 no server required. It previews correctly by just opening `index.html`
 in a browser, and it's built to slot into Zoho Sites (where rahali.com
 already lives) using Zoho's own "HTML" embed block.
@@ -12,16 +12,15 @@ already lives) using Zoho's own "HTML" embed block.
    In Zoho Sites, go to **Files** (the file manager — this is the same
    place the current site's PDFs already live, under `/files/...`).
    Upload the whole `assets` folder (`assets/css/style.css`,
-   `assets/js/main.js`, `assets/img/logo.svg`, `assets/img/logo-white.svg`,
-   `assets/img/favicon.svg`). Note the public URL Zoho gives each file,
-   e.g. `https://www.rahali.com/files/style.css`.
+   `assets/js/main.js`, `assets/img/logo.png`, `assets/img/favicon.png` —
+   the existing Rahali logo, reused as-is). Note the public URL Zoho
+   gives each file, e.g. `https://www.rahali.com/files/style.css`.
 
 2. **Update the asset links in each HTML file** (find-and-replace across
    all 9 pages, once):
    - `assets/css/style.css` → the uploaded CSS file's Zoho URL
    - `assets/js/main.js` → the uploaded JS file's Zoho URL
-   - `assets/img/logo.svg`, `assets/img/logo-white.svg`,
-     `assets/img/favicon.svg` → their uploaded URLs
+   - `assets/img/logo.png`, `assets/img/favicon.png` → their uploaded URLs
 
 3. **Create one Zoho Sites page per HTML file here**, using the same
    page names so the internal links keep working:
@@ -86,6 +85,6 @@ complaints.html      → Complaints Procedure + complaint form
 contact.html        Contact / enquiry form
 assets/css/style.css   Shared design system
 assets/js/main.js      Nav toggle, active-link highlight, mailto forms
-assets/img/logo.svg, logo-white.svg, favicon.svg
+assets/img/logo.png, favicon.png   Existing Rahali Corporation logo
 files/PLACE-FSCG-HERE.txt   Where your real FSCG PDF needs to go
 ```

@@ -98,10 +98,9 @@ em{ font-style:italic; color:var(--accent-deep); }
 /* ---- Topbar ---- */
 .topbar{ border-bottom:1px solid var(--line); background:var(--bg); position:sticky; top:0; z-index:100; }
 .topbar-inner{ display:flex; align-items:center; justify-content:space-between; padding:20px 0; gap:20px; }
-.logo{ display:flex; align-items:center; gap:10px; text-decoration:none; flex-shrink:0; }
-.logo-mark{ width:28px; height:28px; flex:none; }
-.logo-word{ font-family:"Fraunces",serif; font-weight:500; font-size:21px; letter-spacing:.01em; color:var(--ink); line-height:1.1; }
-.logo-sub{ font-family:"IBM Plex Mono",monospace; font-size:10px; letter-spacing:.14em; text-transform:uppercase; color:var(--ink-faint); display:block; }
+.logo{ display:flex; align-items:center; gap:10px; text-decoration:none; flex-shrink:0; min-width:0; }
+.logo-img{ height:38px; width:auto; display:block; flex-shrink:0; }
+.logo-img--footer{ height:34px; margin-bottom:14px; }
 nav.site-nav{ display:flex; gap:30px; }
 nav.site-nav a{
   font-family:"IBM Plex Mono",monospace; font-size:12.5px; letter-spacing:.06em; text-transform:uppercase;
@@ -124,7 +123,6 @@ nav.site-nav a:hover, nav.site-nav a.active{ color:var(--ink); border-color:var(
   .nav-toggle{ display:block; }
 }
 @media (max-width:480px){
-  .logo-sub{ display:none; }
   .topbar-cta .btn-primary.btn-sm{ padding:9px 12px; font-size:11px; }
 }
 
