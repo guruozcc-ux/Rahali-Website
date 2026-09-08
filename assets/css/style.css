@@ -230,6 +230,20 @@ blockquote cite{ display:block; margin-top:14px; font-family:"IBM Plex Mono",mon
 @media (max-width:760px){ .panel-grid-3, .panel-grid-2{ grid-template-columns:1fr; } }
 .panel-grid .panel{ border:none; }
 
+/* ---- Partner logo grid ---- */
+.partner-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:1px; background:var(--line); border:1px solid var(--line); margin-top:24px; }
+@media (max-width:420px){ .partner-grid{ grid-template-columns:1fr; } }
+.partner-card{
+  background:var(--surface); padding:30px 20px; min-height:140px;
+  display:flex; flex-direction:column; align-items:center; justify-content:center; gap:14px;
+  text-align:center; text-decoration:none; transition:background .15s ease;
+}
+a.partner-card:hover{ background:var(--accent-tint); }
+.partner-logo{ height:42px; max-width:150px; width:auto; object-fit:contain; }
+.partner-name{ font-family:"IBM Plex Mono",monospace; font-size:11.5px; letter-spacing:.03em; color:var(--ink-soft); }
+.partner-category{ margin-top:56px; }
+.partner-category:first-of-type{ margin-top:0; }
+
 /* ---- Tables ---- */
 table{ width:100%; border-collapse:collapse; margin:1.2em 0; font-size:15px; }
 th,td{ text-align:left; padding:12px 14px; border-bottom:1px solid var(--line); vertical-align:top; }
